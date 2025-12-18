@@ -18,7 +18,7 @@
     ]
   },
   "require": {
-    "php": ">=7.0",
+    "php": ">=7.2",
     "ext-zlib": "*",
     "iqb/archive": "dev-master"
   },
@@ -27,6 +27,6 @@
   },
   "require-dev": {
     "ext-bz2": "*",
-    "phpunit/phpunit": "^6.4"
+    "phpunit/phpunit": "^8"
   }
 }

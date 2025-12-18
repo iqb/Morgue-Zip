@@ -173,6 +173,21 @@ const ZIP_COMPRESSION_METHOD_TERSE = 18;
 const ZIP_COMPRESSION_METHOD_LZ77 = 19;
 
 /**
+ * LZMA2 algorithm
+ */
+const ZIP_COMPRESSION_METHOD_LZMA2 = 33;
+
+/**
+ * Zstandard algorithm
+ */
+const ZIP_COMPRESSION_METHOD_ZSTD = 93;
+
+/**
+ * XZ algorithm
+ */
+const ZIP_COMPRESSION_METHOD_XZ = 95;
+
+/**
  * WavPack compressed data
  * @link http://www.wavpack.com
  */
